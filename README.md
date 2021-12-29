@@ -2,6 +2,14 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.12.
 
+## About
+
+A task was to create a timer using Angular2 and Rxjs. 
+Timer has 3 buttons: 
+- start/stop button - to start timer; if started it changes to Stop button by clicking on which timer stops and sets to 0
+- wait button - work on double click but only if the interval between clicks is less than 300ms (custom doubleClick); it pauses the timer, if after that user clicks Start btn the timer continues to work
+- reset button - sets timer to 0 and starts it again
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
